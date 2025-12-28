@@ -1,0 +1,17 @@
+﻿{
+  "name": "nexus-apex-mcp-server",
+  "version": "1.0.0",
+  "description": "NEXUS APEX v12 - MCP Server with 5 AI Tools",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  }
+}
